@@ -1,4 +1,5 @@
 FROM node:12.16-slim as node
+LABEL maintainer "Luis Henrique <lhff.dev@gmail.com>"
 
 EXPOSE 4200
 WORKDIR /app
